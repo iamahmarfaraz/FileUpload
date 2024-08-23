@@ -184,7 +184,7 @@ exports.imageSizeReducer = async (req,res) => {
 
         res.json({
             success:true,
-            message:"video Uploaded Successfully",
+            message:"Image Size Reduced and Uploaded Successfully",
             imageUrl:response.secure_url
         })
 
